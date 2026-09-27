@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohan Goswami - Resume</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; width: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #323639; }
+    .header {
+      height: 48px; background-color: #222527; color: #fff;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+    .title { font-size: 15px; font-weight: 500; }
+    .download-btn {
+      background-color: #1a73e8; color: white; padding: 6px 14px;
+      text-decoration: none; border-radius: 4px; font-size: 13px; font-weight: 500;
+      transition: background 0.2s;
+    }
+    .download-btn:hover { background-color: #1557b0; }
+    iframe { width: 100%; height: calc(100% - 48px); border: none; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="title">Rohan Goswami - Resume</span>
+    <a href="RohanGoswamiResume.pdf" download="Rohan_Goswami_Resume.pdf" class="download-btn">Download PDF</a>
+  </div>
+  <iframe src="RohanGoswamiResume.pdf"></iframe>
+</body>
+</html>
